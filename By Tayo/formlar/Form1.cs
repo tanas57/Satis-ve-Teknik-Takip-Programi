@@ -16,7 +16,7 @@ namespace By_Tayo
             InitializeComponent();
         }
         Fonksiyonlar fk = new Fonksiyonlar();
-        KontrolForm kf = new KontrolForm();
+        //KontrolForm kf = new KontrolForm();
         
         private void müşteriEkleToolStripMenuItem_Click(object sender, EventArgs e)
         {

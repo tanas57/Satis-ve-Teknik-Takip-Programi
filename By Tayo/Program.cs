@@ -13,10 +13,11 @@ namespace By_Tayo
         [STAThread]
         static void Main()
         {
-            Fonksiyonlar fk = new Fonksiyonlar();
+            //Fonksiyonlar fk = new Fonksiyonlar();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            fk.LisansDogrula();
+            //fk.LisansDogrula();
+            Application.Run(new Form1());
         }
     }
 }

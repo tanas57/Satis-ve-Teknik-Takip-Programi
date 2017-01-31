@@ -253,3 +253,59 @@ C:\Users\anonymous\Desktop\Muslu Yazılım - Satış ve Teknik Takip\By Tayo\obj
 C:\Users\anonymous\Desktop\Muslu Yazılım - Satış ve Teknik Takip\By Tayo\obj\x86\Debug\By_Tayo.YedekAl.resources
 C:\Users\anonymous\Desktop\Muslu Yazılım - Satış ve Teknik Takip\By Tayo\obj\x86\Debug\By_Tayo.YedekYukle.resources
 C:\Users\anonymous\Desktop\Muslu Yazılım - Satış ve Teknik Takip\By Tayo\obj\x86\Debug\By Tayo.csproj.GenerateResource.Cache
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\bin\Debug\Satış ve Teknik Takip Programı.exe.config
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\Satış ve Teknik Takip Programı.exe
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\Satış ve Teknik Takip Programı.pdb
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By Tayo.csprojResolveAssemblyReference.cache
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.Ayar.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.Form1.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.GirisEkran.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.GirisEkran2.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.iletisim.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.SatisAylik.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.SatisGunluk.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.SatisHaftalik.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.KontrolForm.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.ManuelSatis.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.Lisans.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.MusteriKategori.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.MusteriKategoriEkle.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.MusteriKategoriGuncelle.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.MusteriKategoriSil.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.Satislar.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.SifreDegis.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.Takipler.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.TakipSil.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.TakipGuncelle.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.TakipEkle.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.TkpGuncelle.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.UrunEkle.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.UrunGuncelle.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.UrunGuncelle2.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.UrunKategoriEkle.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.UrunKategoriGuncelle.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.Musteri.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.MusteriEkle.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.MusteriGuncelle.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.MusteriGuncelle2.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.MusteriSil.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.MusteriSil2.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.Properties.Resources.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.UrunKategori.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.UrunKategoriGuncelle2.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.UrunKategoriSil.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.UrunKategoriSil2.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.Urunler.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.UrunSil.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.YeniSatis.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.UrunSil2.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.YardimMusteri.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.YardimRapor.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.YardimTakip.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.YardimSatis.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.YardimUrun.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.YedekAl.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By_Tayo.YedekYukle.resources
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\obj\x86\Debug\By Tayo.csproj.GenerateResource.Cache
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\bin\Debug\Satış ve Teknik Takip Programı.exe
+C:\Users\anonymous\Documents\GitHub\Satis-ve-Teknik-Takip-Programi\By Tayo\bin\Debug\Satış ve Teknik Takip Programı.pdb

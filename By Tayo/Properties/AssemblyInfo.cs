@@ -9,10 +9,10 @@ using System.Resources;
 [assembly: AssemblyTitle("Satış ve Teknik Takip Programı")]
 [assembly: AssemblyDescription("Satış ve teknik giriş ve çıkışları takip etmek ve istatistik olarak verileri depolamak için kullanılan program.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Muslu Yazılım")]
+[assembly: AssemblyCompany("Muslu.NET")]
 [assembly: AssemblyProduct("Tayyip Muslu - By Tayo")]
-[assembly: AssemblyCopyright("Copyright © Muslu Yazılım 2014")]
-[assembly: AssemblyTrademark("Tayyip Muslu - http://www.ayancikhost.com")]
+[assembly: AssemblyCopyright("Copyright © Muslu.NET 2014")]
+[assembly: AssemblyTrademark("Tayyip Muslu - http://www.muslu.net")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
