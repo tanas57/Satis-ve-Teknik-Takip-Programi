@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{73DAEBEB-12F8-4419-92B6-ED3BF3230777}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>By_Tayo</RootNamespace>
+    <AssemblyName>Satış ve Teknik Takip Programı</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>ftp://ayancikhost.com/App/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://www.ayancikhost.com/public_html/App/SatisveTeknikTakip/</InstallUrl>
+    <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>By_Tayo.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tayobylogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D25EB3A5843ECCDD8B1C0CFE3EE3E98369C09DA7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>By Tayo_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FirebirdSql.Data.FirebirdClient, Version=4.1.5.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FirebirdSql.Data.FirebirdClient.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="formlar\Ayar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\Ayar.Designer.cs">
+      <DependentUpon>Ayar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fonksiyonlar.cs" />
+    <Compile Include="formlar\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\KontrolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\KontrolForm.Designer.cs">
+      <DependentUpon>KontrolForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\ManuelSatis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\ManuelSatis.Designer.cs">
+      <DependentUpon>ManuelSatis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\GirisEkran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\GirisEkran.Designer.cs">
+      <DependentUpon>GirisEkran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\iletisim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\iletisim.Designer.cs">
+      <DependentUpon>iletisim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Lisans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\Lisans.Designer.cs">
+      <DependentUpon>Lisans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\GirisEkran2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\GirisEkran2.Designer.cs">
+      <DependentUpon>GirisEkran2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisanslama.cs" />
+    <Compile Include="musteri\MusteriKategori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteri\MusteriKategori.Designer.cs">
+      <DependentUpon>MusteriKategori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musteri\MusteriKategoriEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteri\MusteriKategoriEkle.Designer.cs">
+      <DependentUpon>MusteriKategoriEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musteri\MusteriKategoriGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteri\MusteriKategoriGuncelle.Designer.cs">
+      <DependentUpon>MusteriKategoriGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musteri\MusteriKategoriSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteri\MusteriKategoriSil.Designer.cs">
+      <DependentUpon>MusteriKategoriSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="istatislik\SatisAylik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istatislik\SatisAylik.Designer.cs">
+      <DependentUpon>SatisAylik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="istatislik\SatisGunluk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istatislik\SatisGunluk.Designer.cs">
+      <DependentUpon>SatisGunluk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="istatislik\SatisHaftalik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="istatislik\SatisHaftalik.Designer.cs">
+      <DependentUpon>SatisHaftalik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Satislar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\Satislar.Designer.cs">
+      <DependentUpon>Satislar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\SifreDegis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\SifreDegis.Designer.cs">
+      <DependentUpon>SifreDegis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="takip\Takipler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="takip\Takipler.Designer.cs">
+      <DependentUpon>Takipler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="takip\TakipSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="takip\TakipSil.Designer.cs">
+      <DependentUpon>TakipSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="takip\TakipGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="takip\TakipGuncelle.Designer.cs">
+      <DependentUpon>TakipGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="takip\TakipEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="takip\TakipEkle.Designer.cs">
+      <DependentUpon>TakipEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="takip\TkpGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="takip\TkpGuncelle.Designer.cs">
+      <DependentUpon>TkpGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urun\UrunEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun\UrunEkle.Designer.cs">
+      <DependentUpon>UrunEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urun\UrunGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun\UrunGuncelle.Designer.cs">
+      <DependentUpon>UrunGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urun\UrunGuncelle2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun\UrunGuncelle2.Designer.cs">
+      <DependentUpon>UrunGuncelle2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urun\UrunKategoriEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun\UrunKategoriEkle.Designer.cs">
+      <DependentUpon>UrunKategoriEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urun\UrunKategoriGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun\UrunKategoriGuncelle.Designer.cs">
+      <DependentUpon>UrunKategoriGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musteri\Musteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteri\Musteri.Designer.cs">
+      <DependentUpon>Musteri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musteri\MusteriEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteri\MusteriEkle.Designer.cs">
+      <DependentUpon>MusteriEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musteri\MusteriGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteri\MusteriGuncelle.Designer.cs">
+      <DependentUpon>MusteriGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musteri\MusteriGuncelle2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteri\MusteriGuncelle2.Designer.cs">
+      <DependentUpon>MusteriGuncelle2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musteri\MusteriSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteri\MusteriSil.Designer.cs">
+      <DependentUpon>MusteriSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musteri\MusteriSil2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteri\MusteriSil2.Designer.cs">
+      <DependentUpon>MusteriSil2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="urun\UrunKategori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun\UrunKategori.Designer.cs">
+      <DependentUpon>UrunKategori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urun\UrunKategoriGuncelle2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun\UrunKategoriGuncelle2.Designer.cs">
+      <DependentUpon>UrunKategoriGuncelle2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urun\UrunKategoriSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun\UrunKategoriSil.Designer.cs">
+      <DependentUpon>UrunKategoriSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urun\UrunKategoriSil2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun\UrunKategoriSil2.Designer.cs">
+      <DependentUpon>UrunKategoriSil2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urun\Urunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun\Urunler.Designer.cs">
+      <DependentUpon>Urunler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urun\UrunSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun\UrunSil.Designer.cs">
+      <DependentUpon>UrunSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urun\UrunSil2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun\UrunSil2.Designer.cs">
+      <DependentUpon>UrunSil2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\YeniSatis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\YeniSatis.Designer.cs">
+      <DependentUpon>YeniSatis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yardim\YardimMusteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yardim\YardimMusteri.Designer.cs">
+      <DependentUpon>YardimMusteri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yardim\YardimRapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yardim\YardimRapor.Designer.cs">
+      <DependentUpon>YardimRapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yardim\YardimTakip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yardim\YardimTakip.Designer.cs">
+      <DependentUpon>YardimTakip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yardim\YardimSatis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yardim\YardimSatis.Designer.cs">
+      <DependentUpon>YardimSatis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yardim\YardimUrun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yardim\YardimUrun.Designer.cs">
+      <DependentUpon>YardimUrun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\YedekAl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\YedekAl.Designer.cs">
+      <DependentUpon>YedekAl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\YedekYukle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\YedekYukle.Designer.cs">
+      <DependentUpon>YedekYukle.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="formlar\Ayar.resx">
+      <DependentUpon>Ayar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\GirisEkran.resx">
+      <DependentUpon>GirisEkran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\GirisEkran2.resx">
+      <DependentUpon>GirisEkran2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\iletisim.resx">
+      <DependentUpon>iletisim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istatislik\SatisAylik.resx">
+      <DependentUpon>SatisAylik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istatislik\SatisGunluk.resx">
+      <DependentUpon>SatisGunluk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="istatislik\SatisHaftalik.resx">
+      <DependentUpon>SatisHaftalik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\KontrolForm.resx">
+      <DependentUpon>KontrolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\ManuelSatis.resx">
+      <DependentUpon>ManuelSatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Lisans.resx">
+      <DependentUpon>Lisans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteri\MusteriKategori.resx">
+      <DependentUpon>MusteriKategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteri\MusteriKategoriEkle.resx">
+      <DependentUpon>MusteriKategoriEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteri\MusteriKategoriGuncelle.resx">
+      <DependentUpon>MusteriKategoriGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteri\MusteriKategoriSil.resx">
+      <DependentUpon>MusteriKategoriSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Satislar.resx">
+      <DependentUpon>Satislar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\SifreDegis.resx">
+      <DependentUpon>SifreDegis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="takip\Takipler.resx">
+      <DependentUpon>Takipler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="takip\TakipSil.resx">
+      <DependentUpon>TakipSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="takip\TakipGuncelle.resx">
+      <DependentUpon>TakipGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="takip\TakipEkle.resx">
+      <DependentUpon>TakipEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="takip\TkpGuncelle.resx">
+      <DependentUpon>TkpGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun\UrunEkle.resx">
+      <DependentUpon>UrunEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun\UrunGuncelle.resx">
+      <DependentUpon>UrunGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun\UrunGuncelle2.resx">
+      <DependentUpon>UrunGuncelle2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun\UrunKategoriEkle.resx">
+      <DependentUpon>UrunKategoriEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun\UrunKategoriGuncelle.resx">
+      <DependentUpon>UrunKategoriGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteri\Musteri.resx">
+      <DependentUpon>Musteri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteri\MusteriEkle.resx">
+      <DependentUpon>MusteriEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteri\MusteriGuncelle.resx">
+      <DependentUpon>MusteriGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteri\MusteriGuncelle2.resx">
+      <DependentUpon>MusteriGuncelle2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteri\MusteriSil.resx">
+      <DependentUpon>MusteriSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteri\MusteriSil2.resx">
+      <DependentUpon>MusteriSil2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun\UrunKategori.resx">
+      <DependentUpon>UrunKategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun\UrunKategoriGuncelle2.resx">
+      <DependentUpon>UrunKategoriGuncelle2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun\UrunKategoriSil.resx">
+      <DependentUpon>UrunKategoriSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun\UrunKategoriSil2.resx">
+      <DependentUpon>UrunKategoriSil2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun\Urunler.resx">
+      <DependentUpon>Urunler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun\UrunSil.resx">
+      <DependentUpon>UrunSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\YeniSatis.resx">
+      <DependentUpon>YeniSatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun\UrunSil2.resx">
+      <DependentUpon>UrunSil2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yardim\YardimMusteri.resx">
+      <DependentUpon>YardimMusteri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yardim\YardimRapor.resx">
+      <DependentUpon>YardimRapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yardim\YardimTakip.resx">
+      <DependentUpon>YardimTakip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yardim\YardimSatis.resx">
+      <DependentUpon>YardimSatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yardim\YardimUrun.resx">
+      <DependentUpon>YardimUrun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\YedekAl.resx">
+      <DependentUpon>YedekAl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\YedekYukle.resx">
+      <DependentUpon>YedekYukle.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anaform.png" />
+    <None Include="Resources\satis-e.png" />
+    <None Include="Resources\satis-m.png" />
+    <None Include="Resources\iletisim.png" />
+    <None Include="Resources\tayobylogo1.png" />
+    <None Include="Resources\telefon.png" />
+    <None Include="Resources\adres.png" />
+    <None Include="Resources\graphix-internet-explorer_282x282.png" />
+    <None Include="Resources\web.png" />
+    <None Include="Resources\mail.png" />
+    <None Include="Resources\Places-certificate-server-icon.png" />
+    <None Include="Resources\yedek.png" />
+    <None Include="Resources\dosya.png" />
+    <None Include="Resources\geriyukle.png" />
+    <None Include="Resources\yedek1.png" />
+    <None Include="Resources\yukle.png" />
+    <None Include="Resources\70xlisans.png" />
+    <None Include="Resources\kullanici.png" />
+    <None Include="Resources\ayarlar.png" />
+    <None Include="Resources\sifre.png" />
+    <None Include="Resources\dizin.png" />
+    <Content Include="tayobylogo.ico" />
+    <None Include="Resources\yenile.png" />
+    <None Include="Resources\ara.png" />
+    <None Include="Resources\bilgi32.png" />
+    <None Include="Resources\rapor-g.png" />
+    <None Include="Resources\raporh.png" />
+    <None Include="Resources\rapor-a.png" />
+    <Content Include="Resources\tik32.png" />
+    <Content Include="Resources\tik25.png" />
+    <None Include="Resources\rapor.png" />
+    <None Include="Resources\urun-k.png" />
+    <None Include="Resources\urun-s.png" />
+    <None Include="Resources\urun-g.png" />
+    <None Include="Resources\urun-e.png" />
+    <None Include="Resources\urun-b2.png" />
+    <None Include="Resources\urun-b1.png" />
+    <None Include="Resources\urun-b.png" />
+    <None Include="Resources\urun.png" />
+    <None Include="Resources\teknik-b1.png" />
+    <None Include="Resources\teknik-e1.png" />
+    <None Include="Resources\teknik-e.png" />
+    <None Include="Resources\teknik-b.png" />
+    <None Include="Resources\teknik1.png" />
+    <None Include="Resources\musteri2.png" />
+    <None Include="Resources\musteri1.png" />
+    <None Include="Resources\satis1.png" />
+    <None Include="Resources\Sales.png" />
+    <None Include="Resources\tik.png" />
+    <None Include="Resources\yardim.png" />
+    <None Include="Resources\carpi.png" />
+    <None Include="Resources\muster-bilgi.png" />
+    <None Include="Resources\musteri-ekle.png" />
+    <None Include="Resources\musteri-duzenle.png" />
+    <None Include="Resources\musteri-sil.png" />
+    <None Include="Resources\musteri-kategori.png" />
+    <None Include="Resources\kategori.png" />
+    <None Include="Resources\ekle.png" />
+    <None Include="Resources\carpi32.png" />
+    <None Include="Resources\duzenle.png" />
+    <None Include="Resources\bekle.gif" />
+    <None Include="Resources\ayar.png" />
+    <None Include="Resources\bekle16.gif" />
+    <None Include="Resources\bekle1.gif" />
+    <None Include="Resources\bekle24.gif" />
+    <Content Include="Resources\carpi25.png" />
+    <Content Include="Resources\musteri.png" />
+    <None Include="Resources\satis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,9 @@
+C:\Users\Muslu\Documents\Visual Studio 2010\Projects\By Tayo\By Tayo\bin\Release\By Tayo.exe
+C:\Users\Muslu\Documents\Visual Studio 2010\Projects\By Tayo\By Tayo\bin\Release\By Tayo.pdb
+C:\Users\Muslu\Documents\Visual Studio 2010\Projects\By Tayo\By Tayo\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Muslu\Documents\Visual Studio 2010\Projects\By Tayo\By Tayo\obj\x86\Release\By_Tayo.Form1.resources
+C:\Users\Muslu\Documents\Visual Studio 2010\Projects\By Tayo\By Tayo\obj\x86\Release\By_Tayo.Properties.Resources.resources
+C:\Users\Muslu\Documents\Visual Studio 2010\Projects\By Tayo\By Tayo\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Muslu\Documents\Visual Studio 2010\Projects\By Tayo\By Tayo\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Muslu\Documents\Visual Studio 2010\Projects\By Tayo\By Tayo\obj\x86\Release\By Tayo.exe
+C:\Users\Muslu\Documents\Visual Studio 2010\Projects\By Tayo\By Tayo\obj\x86\Release\By Tayo.pdb
