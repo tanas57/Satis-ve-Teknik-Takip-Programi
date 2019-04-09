@@ -17,7 +17,7 @@ namespace By_Tayo
 {
     class Fonksiyonlar
     {
-        string baglanti_cumlesi = "User=SYSDBA;Password=masterkey;Database=" + Application.StartupPath.ToString() + "\\Data\\DATA.FDB;DataSource=localhost;Port=3050;Dialect=3;Charset=WIN1254;Role=;Connection lifetime=0.01;Pooling=true;MinPoolSize=0;MaxPoolSize=50;Packet Size=8192;ServerType=1;";
+        string baglanti_cumlesi = "User=SYSDBA;Password=masterkey;Database=" + Application.StartupPath.ToString() + "\\Data\\DATA.FDB;DataSource=localhost;Port=3050;Dialect=3;Charset=UTF8;Role=;Connection lifetime=0.01;Pooling=true;MinPoolSize=0;MaxPoolSize=50;Packet Size=8192;ServerType=1;";
         public DataTable dt = new DataTable();
         public string FirmaAdi = "Muslu Yazılım";
         public string ProAdi = "Satış ve Teknik Takip Programı";
